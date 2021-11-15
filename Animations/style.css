@@ -1,0 +1,16 @@
+#color-swatch {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    position: relative;
+    animation: scoot 6s forwards;
+    animation-play-state: paused;
+}
+
+@keyframes scoot {
+    0% { left: 0px; }
+    20% { left: 400px; transform: rotate(0deg); }
+    40% { transform: rotate(90deg); }
+    100% { left: 400px; transform: rotate(90deg); }
+}
