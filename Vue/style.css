@@ -1,0 +1,21 @@
+body {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.component-container {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    gap: 20px;
+}
+
+.component {
+    flex: 1;
+    height: 100%;
+    padding: 40px;
+    background: rgb(255, 177, 177);
+}
