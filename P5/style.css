@@ -1,0 +1,20 @@
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.main-container > div {
+    background: lightblue;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    width: 400px;
+}
