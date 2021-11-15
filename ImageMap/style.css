@@ -1,5 +1,11 @@
 body {
-    margin: 40px;
+    margin: 20px;
+}
+
+h1 {
+    background-color: #DDDDDD;
+    margin: 0px;
+    padding: 10px;
 }
 
 .my-map-area {

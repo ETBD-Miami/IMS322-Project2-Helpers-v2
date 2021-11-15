@@ -1,11 +1,26 @@
 /* This is just to add a little padding and background color. */
 /* Most of the styling happens in Boostrap. */
 
-.tab-content {
+body {
+    margin: 10px;
+}
+
+h1 {
+    background-color: #DDDDDD;
+    margin: 0px;
     padding: 10px;
 }
 
 #explanation {
     padding: 20px;
     background-color: #EEEEEE;
+    margin-bottom: 20px;
+}
+
+.tab-content {
+    padding-bottom: 10px;
+}
+
+img {
+    padding: 10px;
 }
