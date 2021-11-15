@@ -42,13 +42,10 @@
         I would suggest trying to move as much of this into your stylesheet as possible (especially if you have a uniform look for all of your hover/click locations).
         </p>
 
-        <div style="position: relative; width: 50%">
+        <div class="map-container">
             <img src="images/CPA152.jpeg" width="100%">
-            <div class="my-map-area" style="position: absolute; left: 12%; top: 5%; width: 12%; height: 20%; background-color: rgba(255, 255, 255, .5); border-radius: 50%;"
-            onclick="appearLeft()">
-            </div>
-            <div class="my-map-area" style="position: absolute; left: 62%; top: 15%; width: 10%; height: 18%; background-color: rgba(255, 255, 255, .5); border-radius: 50%;"
-            onclick="appearRight()"></div>
+            <div class="my-map-area" style="left: 12%; top: 5%; width: 12%; height: 20%;" onclick="appearLeft()"></div>
+            <div class="my-map-area" style="left: 62%; top: 15%; width: 10%; height: 18%;" onclick="appearRight()"></div>
         </div>
 
         <p>Click the hover spots to make text appear.</p>
