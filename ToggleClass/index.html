@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <title>Toggle Class</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Toggle Class</h1>
+        <p>Since Bootstrap uses classes to decide whether or not something is visible/active,
+            this can be a great way to use alternative interfaces to switch active tabs (e.g. like an image map).</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <p>Use the buttons below to switch what tab content is loaded.
+                Notice in the HTML that we're only using the tab-content part of the tabbed interface example
+                since we don't need the actualy tabs themselves anymore to handle navigation.</p>
+                <p>
+                    <button value="tab1" onclick="switchTab(this.value)"> Tab1</button>
+                    <button value="tab2" onclick="switchTab(this.value)">Tab2</button>
+                    <button value="tab3" onclick="switchTab(this.value)">Tab3</button>
+                </p>
+                <p>FYI, my implementation appears to kill the fade animation, so perhaps if you have the time, you can
+                    research a better way to do this that retains the fade!</p>
+            </div>
+            <div class="col-6">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
+                        <div>Content for tab 1.</div>
+                    </div>
+                    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="profile-tab">
+                        <div>Content for tab 2.</div>
+                    </div>
+                    <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="contact-tab">
+                        <div>Content for tab 3.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+
+    <style>
+        .tab-content {
+            background-color: lightgray;
+            height: 200px;
+        }
+    </style>
+
+</body>
+</html>

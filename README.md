@@ -10,4 +10,5 @@ Check out the links below for helper examples.
 - [Bootstrap Grid](BootstrapGrid) - If you're still working on getting an responsive layout.
 - [Display Filtering](DisplayFiltering)
 - [Nested Dropdowns](NestedDropdowns)
+- [Toggle Class](ToggleClass)
 - [Other Vanilla JavaScript Libraries](Libraries)
