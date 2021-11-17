@@ -9,4 +9,5 @@ Check out the links below for helper examples.
 - [CSS Animations](CSSAnimations)
 - [Bootstrap Grid](BootstrapGrid) - If you're still working on getting an responsive layout.
 - [Display Filtering](DisplayFiltering)
+- [Nested Dropdowns](NestedDropdowns)
 - [Other Vanilla JavaScript Libraries](Libraries)
